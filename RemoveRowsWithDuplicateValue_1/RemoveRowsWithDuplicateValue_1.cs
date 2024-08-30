@@ -59,7 +59,7 @@ namespace RemoveRowsWithDuplicateValue_1
     public sealed class RemoveRowsWithDuplicateValue : IGQIRowOperator, IGQIInputArguments
     {
         private readonly GQIColumnDropdownArgument _valueColumnArg = new GQIColumnDropdownArgument("Value Column") { IsRequired = true };
-        private HashSet<string> _knownValues = new HashSet<string>();
+        private readonly HashSet<string> _knownValues = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         private GQIColumn _column;
 
         public GQIArgument[] GetInputArguments()
