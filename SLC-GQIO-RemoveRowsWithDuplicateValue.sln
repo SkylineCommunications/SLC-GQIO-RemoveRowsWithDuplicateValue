@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{11AF3CDB-1A7C-467B-8E3D-E5B4B70236BF}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{93F8132D-3E7E-42B1-A44F-807427496911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{C8632E0A-E9F1-4503-987B-3F0C0879A11B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{56CF6F36-FB81-4364-9019-2457FB9F58CD}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F45820E5-68C2-429A-B980-191FA8F2A6BC}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{EE5FD108-DB1E-4EA9-8FED-6495A3828650}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RemoveRowsWithDuplicateValue", "RemoveRowsWithDuplicateValue", "{D81A8600-2E79-4B46-B1E8-F54B63056F44}"
+	ProjectSection(SolutionItems) = preProject
+		RemoveRowsWithDuplicateValue.xml = RemoveRowsWithDuplicateValue.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{CC8D2665-74DE-4665-A9D0-AA1FE880D0A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveRowsWithDuplicateValue_1", "RemoveRowsWithDuplicateValue_1\RemoveRowsWithDuplicateValue_1.csproj", "{8C8731F1-F3FF-47F3-B255-4E7562050030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C8731F1-F3FF-47F3-B255-4E7562050030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8731F1-F3FF-47F3-B255-4E7562050030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8731F1-F3FF-47F3-B255-4E7562050030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8731F1-F3FF-47F3-B255-4E7562050030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56CF6F36-FB81-4364-9019-2457FB9F58CD} = {C8632E0A-E9F1-4503-987B-3F0C0879A11B}
+		{EE5FD108-DB1E-4EA9-8FED-6495A3828650} = {11AF3CDB-1A7C-467B-8E3D-E5B4B70236BF}
+		{D81A8600-2E79-4B46-B1E8-F54B63056F44} = {93F8132D-3E7E-42B1-A44F-807427496911}
+		{CC8D2665-74DE-4665-A9D0-AA1FE880D0A3} = {D81A8600-2E79-4B46-B1E8-F54B63056F44}
+		{8C8731F1-F3FF-47F3-B255-4E7562050030} = {CC8D2665-74DE-4665-A9D0-AA1FE880D0A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45804E2D-69DA-4570-8978-E107C0C21915}
+	EndGlobalSection
+EndGlobal
